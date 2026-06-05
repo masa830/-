@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="成田雅登のポートフォリオサイト。スカルオンラインと軽音サークル運営支援Webアプリを掲載。" />
+  <title>Masato Narita | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="noise"></div>
+  <div class="cursor-glow" aria-hidden="true"></div>
+
+  <header class="header">
+    <a class="brand" href="#top">
+      <span class="brand-mark">M</span>
+      <span>Masato Narita</span>
+    </a>
+    <nav class="nav" aria-label="メインナビゲーション">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#works">Works</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy reveal">
+        <p class="label">WEB APPLICATION PORTFOLIO</p>
+        <h1>使いやすさと世界観を両立する、<br>Webアプリ開発。</h1>
+        <p class="hero-lead">
+          React / TypeScript / Next.js を中心に、オンラインゲームや大学サークル向けの運営支援アプリを制作しています。
+          UIの見やすさ、画面遷移の自然さ、実際の利用シーンに合った機能設計を大切にしています。
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#works">制作物を見る</a>
+          <a class="btn secondary" href="https://skull-online.vercel.app/" target="_blank" rel="noopener noreferrer">Skull Onlineを開く</a>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal parallax-card">
+        <div class="visual-glow"></div>
+        <img src="assets/skull-result-winner.jpeg" alt="スカルオンラインのリザルト画面" />
+        <div class="floating-card top">
+          <span>Live Demo</span>
+          <strong>skull-online.vercel.app</strong>
+        </div>
+        <div class="floating-card bottom">
+          <span>Now Building</span>
+          <strong>Keion App</strong>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="section-heading reveal">
+        <p class="label">ABOUT</p>
+        <h2>自己紹介</h2>
+      </div>
+      <div class="about-grid">
+        <div class="glass-card large reveal">
+          <p>
+            大学で情報工学を学びながら、Webアプリ開発を中心に制作に取り組んでいます。
+            完成済みの「スカルオンライン」では、タイトルページ・ロビー画面・リザルト画面を主に担当しました。
+            現在は、大学の軽音サークル向けに、メンバー管理やイベント申請、バンド募集などを行えるWebアプリを開発しています。
+          </p>
+        </div>
+        <div class="profile-stats">
+          <div class="stat-card reveal">
+            <span>01</span>
+            <strong>UI Design</strong>
+            <p>直感的に操作できる画面設計</p>
+          </div>
+          <div class="stat-card reveal">
+            <span>02</span>
+            <strong>Web App</strong>
+            <p>React / TypeScriptでの実装</p>
+          </div>
+          <div class="stat-card reveal">
+            <span>03</span>
+            <strong>Problem Solving</strong>
+            <p>実際の課題をもとに機能設計</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="section-heading reveal">
+        <p class="label">SKILLS</p>
+        <h2>使用経験のある技術</h2>
+      </div>
+      <div class="skills">
+        <div class="skill-block reveal">
+          <h3>Frontend</h3>
+          <p>HTML / CSS / JavaScript / TypeScript / React / Next.js</p>
+        </div>
+        <div class="skill-block reveal">
+          <h3>Backend / DB</h3>
+          <p>Node.js / Firebase</p>
+        </div>
+        <div class="skill-block reveal">
+          <h3>Programming</h3>
+          <p>C / C++ / Java / Python</p>
+        </div>
+        <div class="skill-block reveal">
+          <h3>Tools</h3>
+          <p>GitHub / GitLab / Linux</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="works" class="section">
+      <div class="section-heading reveal">
+        <p class="label">WORKS</p>
+        <h2>制作物</h2>
+      </div>
+
+      <article class="project reveal">
+        <div class="project-hero">
+          <img src="assets/skull-lobby-ready.jpeg" alt="スカルオンラインのロビー画面" />
+          <div class="project-overlay">
+            <p class="project-kicker">Completed / Online Board Game</p>
+            <h3>BONE BLOOM</h3>
+            <p>
+              ボードゲーム「スカル」をオンラインで遊べるWebアプリ。
+              タイトル、ロビー、リザルトを中心に、ゲームの世界観と操作の分かりやすさを両立するUIを制作しました。
+            </p>
+            <a class="btn mini" href="https://skull-online.vercel.app/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+          </div>
+        </div>
+
+        <div class="project-content">
+          <div class="project-main reveal">
+            <h4>担当したこと</h4>
+            <p>
+              主にタイトルページ、ロビー画面、リザルト画面の作成を担当しました。
+              タイトル画面では、ゲーム開始前から世界観に入り込めるように、ロゴ・背景・入力欄・ボタンの配置を整えました。
+              ロビー画面では、部屋ID、参加人数、Ready状態、待機枠を一目で確認できるようにし、入室後に必要な操作が分かりやすい画面構成にしました。
+              リザルト画面では、勝者がすぐ分かる演出と、次の行動へ進みやすい導線を実装しました。
+            </p>
+            <div class="chips">
+              <span>React</span>
+              <span>TypeScript</span>
+              <span>Node.js</span>
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>GitHub</span>
+            </div>
+          </div>
+          <aside class="project-side reveal">
+            <div>
+              <span class="side-label">Status</span>
+              <strong>完成済み</strong>
+            </div>
+            <div>
+              <span class="side-label">Role</span>
+              <strong>UI実装 / 画面作成</strong>
+            </div>
+            <div>
+              <span class="side-label">Pages</span>
+              <strong>Title / Lobby / Result</strong>
+            </div>
+            <a class="side-link" href="https://skull-online.vercel.app/" target="_blank" rel="noopener noreferrer">サイトを開く →</a>
+          </aside>
+        </div>
+
+        <section class="page-highlights">
+          <div class="highlight-header reveal">
+            <p class="project-kicker">Page-by-page Highlights</p>
+            <h4>ページごとの工夫点</h4>
+            <p>矢印ではなく、各画面の右側に工夫点を並べて、見やすく整理しています。</p>
+          </div>
+
+          <section class="page-feature reveal">
+            <div class="feature-image">
+              <img src="assets/skull-title.jpeg" alt="スカルオンラインのタイトルページ" />
+            </div>
+            <div class="feature-notes">
+              <p class="feature-label">01 / Title Page</p>
+              <h5>タイトルページ</h5>
+
+              <div class="feature-note">
+                <span>01</span>
+                <div>
+                  <strong>名前未入力では進めない</strong>
+                  <p>名前を入れていない状態では部屋作成・検索に進めないようにし、入力漏れによるエラーを防ぎました。</p>
+                </div>
+              </div>
+
+              <div class="feature-note">
+                <span>02</span>
+                <div>
+                  <strong>ルール説明はミニウィンドウ</strong>
+                  <p>別ページへ移動せずにルールを確認できるため、初めて遊ぶ人でも流れを止めずに理解できます。</p>
+                  <div class="rule-preview">
+                    <img src="assets/skull-rule-window.png" alt="ルール説明のミニウィンドウ" />
+                  </div>
+                </div>
+              </div>
+
+              <div class="feature-note">
+                <span>03</span>
+                <div>
+                  <strong>操作音と音量UI</strong>
+                  <p>ボタンを押したときに音が鳴るようにし、音量の大きさに応じてUIも変化するようにしました。</p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="page-feature reveal">
+            <div class="feature-image">
+              <img src="assets/skull-lobby-notready.jpeg" alt="スカルオンラインのロビー画面 Not Ready" />
+            </div>
+            <div class="feature-notes">
+              <p class="feature-label">02 / Lobby Page</p>
+              <h5>ロビー画面①</h5>
+
+              <div class="feature-note">
+                <span>01</span>
+                <div>
+                  <strong>部屋IDを左上に表示</strong>
+                  <p>招待・共有に必要な情報を左上に配置し、参加者へすぐ共有できるようにしました。</p>
+                </div>
+              </div>
+
+              <div class="feature-note">
+                <span>02</span>
+                <div>
+                  <strong>参加人数を右上に表示</strong>
+                  <p>現在の参加人数と最大人数を表示し、あと何人入れるかが一目で分かるようにしました。</p>
+                </div>
+              </div>
+
+              <div class="feature-note">
+                <span>03</span>
+                <div>
+                  <strong>入室アニメーション</strong>
+                  <p>ロビーに入ったことが画面上でも分かるようにし、参加した実感が出る演出を加えました。</p>
+                </div>
+              </div>
+
+              <div class="feature-note">
+                <span>04</span>
+                <div>
+                  <strong>プレイヤーごとのアイコン表示</strong>
+                  <p>枠内のアイコンや色で、誰がどのプレイヤーか識別しやすいUIにしました。</p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="page-feature reveal">
+            <div class="feature-image">
+              <img src="assets/skull-lobby-ready.jpeg" alt="スカルオンラインのロビー画面 Ready" />
+            </div>
+            <div class="feature-notes">
+              <p class="feature-label">03 / Lobby Operation</p>
+              <h5>ロビー画面②</h5>
+
+              <div class="feature-note">
+                <span>01</span>
+                <div>
+                  <strong>Copyボタンで共有しやすい</strong>
+                  <p>部屋IDをすぐコピーできるようにし、招待の手間を減らしました。</p>
+                </div>
+              </div>
+
+              <div class="feature-note">
+                <span>02</span>
+                <div>
+                  <strong>Ready状態を明確に表示</strong>
+                  <p>各プレイヤーの状態が確認しやすく、ゲーム開始までの流れが分かるようにしました。</p>
+                </div>
+              </div>
+
+              <div class="feature-note">
+                <span>03</span>
+                <div>
+                  <strong>作成者だけにゲーム開始ボタン</strong>
+                  <p>ホストだけが開始できるようにして、参加者が誤ってゲームを開始しないようにしました。</p>
+                </div>
+              </div>
+
+              <div class="feature-note">
+                <span>04</span>
+                <div>
+                  <strong>音量UIを常時表示</strong>
+                  <p>右下の音量ボタンとスライダーで、いつでも音量を調整できるようにしました。</p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="page-feature reveal">
+            <div class="feature-image">
+              <img src="assets/skull-result-winner.jpeg" alt="スカルオンラインのリザルト画面" />
+            </div>
+            <div class="feature-notes">
+              <p class="feature-label">04 / Result Page</p>
+              <h5>リザルト画面</h5>
+
+              <div class="feature-note">
+                <span>01</span>
+                <div>
+                  <strong>WINNERを大きく表示</strong>
+                  <p>勝者が瞬時に分かるよう、画面上部に大きく表示して達成感を出しました。</p>
+                </div>
+              </div>
+
+              <div class="feature-note">
+                <span>02</span>
+                <div>
+                  <strong>勝者アイコンと名前を中央へ</strong>
+                  <p>誰が勝ったかを迷わず認識できるよう、結果情報を中央に集約しました。</p>
+                </div>
+              </div>
+
+              <div class="feature-note">
+                <span>03</span>
+                <div>
+                  <strong>次の行動をすぐ選べる</strong>
+                  <p>「もう一度遊ぶ」「部屋を出る」を下部に並べ、結果確認後の導線を明確にしました。</p>
+                </div>
+              </div>
+
+              <div class="feature-note">
+                <span>04</span>
+                <div>
+                  <strong>残り秒数を表示</strong>
+                  <p>自動遷移のタイミングを表示し、ユーザーが次の画面遷移を予測できるようにしました。</p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </section>
+      </article>
+
+      <article class="project keion-project reveal">
+        <div class="keion-hero">
+          <img src="assets/keion-home.png" alt="軽音サークル運営支援Webアプリのホーム画面イメージ" />
+        </div>
+        <div class="project-content keion-content">
+          <div class="project-main">
+            <p class="project-kicker">In Progress / Circle Management App</p>
+            <h3>軽音サークル運営支援Webアプリ</h3>
+            <p>
+              大学の軽音サークル向けに、メンバー管理、ライブ・合宿申請、支払い管理、タイムテーブル、防音室予約、お知らせ機能などを一元化するWebアプリです。
+              約250名規模のサークル運営を想定し、情報が分散しやすい運営業務を整理することを目的に開発しています。
+            </p>
+            <h4>主な機能予定</h4>
+            <div class="feature-grid">
+              <span>ホーム画面</span>
+              <span>ライブ/合宿申請</span>
+              <span>支払い管理</span>
+              <span>タイムテーブル</span>
+              <span>防音室予約</span>
+              <span>お知らせ</span>
+              <span>メンバー管理</span>
+              <span>幹部向け管理</span>
+            </div>
+            <h4>工夫している点</h4>
+            <p>
+              PCとスマートフォンの両方で使うことを想定し、サイドバー表示とモバイル表示の両方を設計しています。
+              申請中の件数、支払い未完了、近日の締切、未読のお知らせなどをホーム画面にまとめ、幹部がすぐ状況を把握できるようにしています。
+              実際のサークル運営で起こる課題をもとに、必要な機能へすぐアクセスできるUIを目指しています。
+            </p>
+            <div class="chips">
+              <span>Next.js</span>
+              <span>React</span>
+              <span>TypeScript</span>
+              <span>Firebase</span>
+              <span>CSS</span>
+              <span>GitHub</span>
+            </div>
+          </div>
+          <aside class="keion-panel">
+            <span>Current Project</span>
+            <strong>Keion Circle App</strong>
+            <p>サークル運営の申請・管理・予約をまとめるWebサービス</p>
+          </aside>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 Masato Narita. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
